@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Button from './Button';
+import React, { useState } from "react";
+import Button from "./Button";
 
 export default function SearchBar({ onSearch }) {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
