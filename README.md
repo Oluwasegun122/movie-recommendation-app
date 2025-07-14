@@ -21,7 +21,7 @@ This is the frontend of the Movie Recommendation App built with **React**, **Vit
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-recommendation-app.git
+git clone https://github.com/oluwasegun122/movie-recommendation-app.git
 cd movie-recommendation-app/client
 
 npm install
