@@ -1,17 +1,52 @@
-<<<<<<< HEAD
-# movie-recommendation-app
-my project
-=======
-# React + Vite
+# 🎬 Movie Recommendation App - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Movie Recommendation App built with **React**, **Vite**, and **Tailwind CSS**. It allows users to browse trending movies, search for specific titles, view movie details, and manage a personal watchlist.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Router
+- React Hot Toast
+- Lucide Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 548463c82d9fdcc8dbd2fb57bcc52179501efc3e
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/movie-recommendation-app.git
+cd movie-recommendation-app/client
+
+npm install
+VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=http://localhost:5000/api
+
+🛠 Features
+🔥 Trending Movies from TMDB
+
+🔍 Search by Title
+
+🎞 Movie Details View
+
+❤️ Save to Watchlist (Auth Required)
+
+🔐 Auth Context with LocalStorage
+
+⚙️ Fully Responsive UI
+
+client/
+├── components/
+├── context/
+├── pages/
+├── services/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
